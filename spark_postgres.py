@@ -13,7 +13,7 @@ class InsertPostgres:
         Humidity = row.Avg_Humidity
         try:
             connection = connect(user="postgres",
-                                 password="yourpasword",
+                                 password="yourpassword",
                                  host="localhost",
                                  port="5432",
                                  database="iot_database")
